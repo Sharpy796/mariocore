@@ -1,6 +1,6 @@
 <Mod
 	name="Mariocore"
-	description="Adds mario-themed sounds to dying and Extra Life."
+	description="Adds mario-themed sounds to dying and Extra Life. Also reskins Extra Life as a 1-Up."
 	request_no_api_restrictions="0"
     tags="audio,graphics,funny"
 ></Mod>
