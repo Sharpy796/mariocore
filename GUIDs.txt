@@ -1,6 +1,6 @@
 {d3d376b6-af21-4ae3-917c-3e8fb781b724} bank:/Master Bank
 {4bce5662-de5a-06a1-1735-b4714672b1bc} bank:/Master Bank.strings
-{3163153b-66df-435c-b51b-1a695a177354} bank:/mariocore_audio
+{3163153b-66df-435c-b51b-1a695a177354} bank:/mariocore
 {70869098-ff2a-49c5-bb4c-d38f454a2ee2} bank:/music
 {91582d81-bc04-4e28-971c-5f71aeefedd7} bank:/my_mod_audio
 {fd1ec6a6-24b7-4a2e-9988-9733b99dc81e} bus:/

@@ -14,4 +14,8 @@ if( perk_id == "RESPAWN" ) then
 end
 ]]))
 
+function OnPlayerDied( player_entity )
+	GamePlaySound("mods/mariocore/mariocore.bank", "mariocore/mario_death", 0, 0)
+end
+
 ModTextFileSetContent("data/scripts/perks/perk.lua", perkluacontent)
