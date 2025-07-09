@@ -16,8 +16,9 @@ end
 
 function OnPlayerSpawned( player_entity )
     if not GameHasFlagRun("mariocore.luacomp_added") then
-        local luacomp = EntityAddComponent2(player_entity, "LuaComponent")
-        ComponentSetValue2(luacomp, "script_damage_received", "mods/mariocore/files/play_respawn.lua")
+        local luacomp = EntityAddComponent2(player_entity, "LuaComponent", {
+            script_damage_received = "mods/mariocore/files/play_respawn.lua"
+        })
         GameAddFlagRun("mariocore.luacomp_added")
     end
 end
