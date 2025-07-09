@@ -30,7 +30,4 @@ function OnPlayerDied( player_entity )
     end
 end
 
-
-        -- GamePlaySound("mods/mariocore/mariocore.bank", "mariocore/mario_win", 0, 0)
-
 ModTextFileSetContent("data/scripts/perks/perk.lua", perkluacontent)
