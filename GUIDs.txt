@@ -19,6 +19,7 @@
 {40bdfd79-5dfd-4303-8a71-0792c637c380} bus:/ui
 {3fb7759b-bc34-4f41-8566-ba592dc72bdf} event:/mariocore/mario_1up
 {9139e3f1-bb66-478a-8933-03d30984859c} event:/mariocore/mario_death
+{545d5c5f-571d-4b54-a4ce-db17f8f972b6} event:/mariocore/mario_gameover
 {e68c46af-0483-4d08-8e85-fbd5e9b4ce94} event:/mariocore/mario_respawn
 {e21f27fe-5cf5-4b20-97dd-2b9a2e5ee8f1} event:/music/thebiome/01
 {c7d655d8-ec85-4d25-bc91-cf2cca64fbb7} event:/snd_mod/create
