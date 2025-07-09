@@ -23,7 +23,14 @@ function OnPlayerSpawned( player_entity )
 end
 
 function OnPlayerDied( player_entity )
-    GamePlaySound("mods/mariocore/mariocore.bank", "mariocore/mario_gameover", 0, 0)
+    if not GameHasFlagRun('ending_game_completed') then
+        GamePlaySound("mods/mariocore/mariocore.bank", "mariocore/mario_gameover", 0, 0)
+    else
+        GamePlaySound("mods/mariocore/mariocore.bank", "mariocore/mario_win", 0, 0)
+    end
 end
+
+
+        -- GamePlaySound("mods/mariocore/mariocore.bank", "mariocore/mario_win", 0, 0)
 
 ModTextFileSetContent("data/scripts/perks/perk.lua", perkluacontent)
