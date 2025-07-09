@@ -14,8 +14,12 @@ if( perk_id == "RESPAWN" ) then
 end
 ]]))
 
-function OnPlayerDied( player_entity )
-	GamePlaySound("mods/mariocore/mariocore.bank", "mariocore/mario_death", 0, 0)
+function OnPlayerSpawned( player_entity )
+    if not GameHasFlagRun("mariocore.luacomp_added") then
+        local luacomp = EntityAddComponent2(player_entity, "LuaComponent")
+        ComponentSetValue2(luacomp, "script_damage_received", "mods/mariocore/files/play_respawn.lua")
+        GameAddFlagRun("mariocore.luacomp_added")
+    end
 end
 
 ModTextFileSetContent("data/scripts/perks/perk.lua", perkluacontent)
